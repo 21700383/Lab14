@@ -13,7 +13,7 @@ public class My_main { // declare class
 		}
 	}
 	
-	static void myTest (String str) throws MyException{ // declare class which throws MyException
+	static void myTest (String str) throws MyException{ // declare method which throws MyException
 		if (str.equals("null")) { // if str's value is equal to NULL
 			throw new MyException("String val is null"); // throw exception message	
 		}
