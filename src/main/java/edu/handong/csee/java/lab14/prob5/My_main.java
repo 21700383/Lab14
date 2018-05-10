@@ -7,7 +7,7 @@ public class My_main { // declare class
 			Scanner keyboard = new Scanner(System.in); // to get user input
 			String str = keyboard.nextLine(); // set str as string and get value from user
 			My_main.myTest(str); // run class's method myTest with str as input
-			keyboard.close();
+			keyboard.close(); // close keyboard instance
 		} catch(MyException mae) { // catch exception from MyException and message
 			System.out.println("Inside catch block: " + mae); // print the message
 		}
